@@ -1,0 +1,6 @@
+{
+  "name": "question-and-answer-message-board",
+  "dependencies": {
+    "firebase": "^4.1.2"
+  }
+}
