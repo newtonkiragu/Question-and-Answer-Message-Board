@@ -1,32 +1,29 @@
-{ "questions": [{
+{
+  "questions": [{
     "author": "NewtonKaruga",
-    "question": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
-    "image": "http://it4pc.com/wp-content/uploads/2011/09/Computer-Error-Messages-Blue-Screen-BSOD.jpg",
+    "querry": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
+    "image": "http://it4pc.com/wp-content/uploads/2011/09/Computer-Error-Messages-Blue-Screen-BSOD.jpg"
   }, {
     "author": "Martin Luther",
-    "question": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
-    "image": "http://it4pc.com/wp-content/uploads/2011/09/Computer-Error-Messages-Blue-Screen-BSOD.jpg",
+    "querry": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
+    "image": "http://it4pc.com/wp-content/uploads/2011/09/Computer-Error-Messages-Blue-Screen-BSOD.jpg"
   }, {
     "author": "King Junior",
-    "question": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
-    "image": "http://3.bp.blogspot.com/_JmpkIMgnzIE/SRcyBZC0xXI/AAAAAAAAUfs/185rG0cd4Mc/s400/1.png",
-  },
-  {
+    "querry": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
+    "image": "http://3.bp.blogspot.com/_JmpkIMgnzIE/SRcyBZC0xXI/AAAAAAAAUfs/185rG0cd4Mc/s400/1.png"
+  }, {
     "author": "Brian Lomor",
-    "question": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
-    "image": "http://it4pc.com/wp-content/uploads/2011/09/Computer-Error-Messages-Blue-Screen-BSOD.jpg",
-  },
-  {
+    "querry": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
+    "image": "http://it4pc.com/wp-content/uploads/2011/09/Computer-Error-Messages-Blue-Screen-BSOD.jpg"
+  }, {
     "author": "Vivian Opondoh",
-    "question": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
-    "image": "http://blog.tedmed.com/wp-content/uploads/2012/10/20_medical_errors3.jpg",
-  },
-  {
+    "querry": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
+    "image": "http://blog.tedmed.com/wp-content/uploads/2012/10/20_medical_errors3.jpg"
+  }, {
     "author": "James Ochuka",
-    "question": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
-    "image": "http://ndrichardson.com/blog/wp-content/uploads/2010/08/TBS_typosgraphic1.jpg",
-  },
-],
+    "querry": "how do you install whatsapp on ubuntu? I tried and got this error instead:",
+    "image": "http://ndrichardson.com/blog/wp-content/uploads/2010/08/TBS_typosgraphic1.jpg"
+  }],
   "answers": [{
     "author": "Andrea",
     "answer": 4,

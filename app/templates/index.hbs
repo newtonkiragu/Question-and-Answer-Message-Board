@@ -1,3 +1,18 @@
 <h1 class="heading">Welcome to React Message Board</h1>
 <hr>
 <h2>We hope you find answers to all the qustions you have</h2>
+<h3>Submit question</h3>
+<form class="newQuestion" action="index.html" method="post">
+  <input type="text" name="inputQuestion" value="" placeholder="Input question">
+  <input type="text" name="inputAuthorName" value="" placeholder="Input Author Name">
+  <input type="text" name="inputImageUrl" value=""placeholder="eg:http://blog.tedmed.com/wp-conten.jpg">
+  <button type="button" name="button"class="btn btn-submit">Submit Question</button>
+</form>
+<hr>
+
+<ul>
+  {{#each model as |question|}}
+     {{question-tile question=question}}
+
+  {{/each}}
+</ul>

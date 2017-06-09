@@ -18,12 +18,12 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyDcxhf4c5t58Bj3ZB0Ov6KqzW6NryH5Mjc",
-      authDomain: "react-question-and-answer.firebaseapp.com",
-      databaseURL: "https://react-question-and-answer.firebaseio.com",
-      projectId: "react-question-and-answer",
-      storageBucket: "react-question-and-answer.appspot.com",
-      messagingSenderId: "901308898604"
+      apiKey: "AIzaSyC-XlAF-Ta5EC-fDiHGR5Gj6pP1FzWwJCY",
+      authDomain: "react-d52a8.firebaseapp.com",
+      databaseURL: "https://react-d52a8.firebaseio.com",
+      projectId: "react-d52a8",
+      storageBucket: "react-d52a8.appspot.com",
+      messagingSenderId: "375042425920"
     },
 
     APP: {
