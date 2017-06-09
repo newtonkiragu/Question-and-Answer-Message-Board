@@ -1,18 +1,20 @@
 .heading {
   text-align: center;
-  color: white;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Bubbler One', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+  text-decoration-color: white;
 }
 
 body {
   font-size: 18px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static.pexels.com/photos/172292/pexels-photo-172292.jpeg);
-  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Bubbler One', sans-serif;
+  background-color: black;
+  text-decoration-color: white;
 }
 
 .navbar {
@@ -22,13 +24,6 @@ body {
   font-weight: bolder;
   margin-top: 10px;
 }
-
-
-/*.navbar-brand {
-  font-size: 20px;
-  margin-top: 27px;
-  font-weight: bolder;
-}*/
 
 .navbar-toggle {
   margin-top: 27px;
