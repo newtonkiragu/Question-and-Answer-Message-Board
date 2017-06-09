@@ -1,0 +1,48 @@
+.heading {
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://static.pexels.com/photos/172292/pexels-photo-172292.jpeg);
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  font-size: 15px;
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+
+/*.navbar-brand {
+  font-size: 20px;
+  margin-top: 27px;
+  font-weight: bolder;
+}*/
+
+.navbar-toggle {
+  margin-top: 27px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #37c6f5 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff;
+}
