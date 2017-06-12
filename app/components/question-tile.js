@@ -1,5 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  isImageShowing: false
+  answerForm: false,
+  isImageShowing: false,
+
+  actions: {
+    answerFuom() {
+      this.set('answerForm', true);
+    },
+  }
 });
