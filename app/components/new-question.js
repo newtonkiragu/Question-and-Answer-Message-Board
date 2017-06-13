@@ -7,14 +7,14 @@ export default Ember.Component.extend({
       this.set('addNewQuestion', true);
     },
 
-    saveQuestion() {
+    saveQuestion1() {
       var params = {
         author: this.get('author'),
         querry: this.get('querry'),
         image: this.get('image')
       };
       this.set('addNewQuestion', false);
-      this.sendAction('saveQuestion', params);
+      this.sendAction('saveQuestion2', params);
     }
   }
 });

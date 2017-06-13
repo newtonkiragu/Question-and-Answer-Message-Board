@@ -9,5 +9,9 @@ export default Ember.Route.extend({
     QuestionFormShow() {
       this.set('addNewRental', true);
     },
+    saveQuestion3(params) {
+      var newQuestion = this.store.createRecord('question', params);
+      newQuestion.save();
+    }
   }
 });

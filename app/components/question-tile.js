@@ -7,6 +7,7 @@ export default Ember.Component.extend({
   actions: {
     answerFuom() {
       this.set('answerForm', true);
+      this.sendAction('answerForm');
     },
   }
 });
