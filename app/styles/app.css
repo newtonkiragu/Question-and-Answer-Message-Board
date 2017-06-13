@@ -45,7 +45,12 @@ body {
   color: #37c6f5 !important;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff;
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+border-color: transparent;
+color: #fff;
+
 }
