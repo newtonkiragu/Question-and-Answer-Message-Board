@@ -6,8 +6,10 @@
 <hr>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
      {{question-tile question=question}}
 
   {{/each}}
+{{#link-to 'question' question.id}}
+{{/link-to}}
 </ul>

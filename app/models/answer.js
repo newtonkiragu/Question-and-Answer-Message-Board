@@ -1,10 +1,10 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  querry: DS.attr(),
   author: DS.attr(),
   image: DS.attr(),
-  answers: DS.hasMany('answer', {
+  answer: DS.attr(),
+  question: DS.belongsTo('question', {
     async: true
   })
 });

@@ -1,6 +1,7 @@
 <li class="question">
   <!-- {{#link-to 'question' question.id}} {{question.author}}'s {{question.querry}} in {{/link-to}} -->
 <em>{{question.querry}}</em><br>
-By:{{question.author}}<br><img src="{{question.image}}" class="image">
-<button type="button" name="button" {{action 'answerFuom'}} class="btn btn-submit">Answer</button>
+By:{{question.author}}<br>
+{{#link-to 'question' question.id}}answer
+{{/link-to}}
 </li>
