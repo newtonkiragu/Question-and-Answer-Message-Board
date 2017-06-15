@@ -1,4 +1,5 @@
 {{outlet}}
-<img src="{{question.image}}" class="image">
+Hi. I am {{model.author}} This was my Question {{model.querry}}
+Here is the screenshot:
+<p><img src={{model.image}} alt="No image" class="image"></p>
 {{new-answer saveAnswer='saveAnswer' question=model}}
-{{question.author}}
