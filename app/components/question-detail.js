@@ -1,10 +1,18 @@
 import Ember from 'ember';
 
-export default Ember.Component.extend({
-  heading: Ember.computed('question.querry', 'question.author', function() {
-    return this.get('question.querry') + ' - ' + this.get('question.author')
-  }),
+export default Ember.Route.extend({
+  model(params) {
+    return this.store.findRecord('question', params.question_id);
+  },
   actions: {
-
+    saveAnswer(params) {
+      var newAnswer = this.store.createRecord('answer', params);
+      var question = params.question;
+      question.get('answers').addObject(newAnswer);
+      newAnswer.save().then(function() {
+        return question.save();
+      });
+      this.transitionTo('question', question);
+    }
   }
 });

@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   addNewQuestion: false,
   actions: {
-    QuestionFormShow() {
+    questionFormShow() {
       this.set('addNewQuestion', true);
     },
 

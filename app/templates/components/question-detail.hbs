@@ -2,3 +2,12 @@
 Here is the screenshot:
 <p><img src={{model.image}} alt="No image" class="image"></p>
 </li>
+
+{{new-answer saveAnswer="saveAnswer"}}
+<h2>Answers</h2>
+hsdguhyjtb
+<ul class="list">
+  {{#each model.answers as |answer|}}
+    <li>{{answer.author}} - {{answer.answer}} {{answer.image}}</li>
+  {{/each}}
+</ul>

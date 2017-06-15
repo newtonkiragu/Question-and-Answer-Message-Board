@@ -1,16 +1,14 @@
 {{outlet}}
 <h1 class="heading">Welcome to React Message Board</h1>
 <hr>
-<h2>We hope you find answers to all the qustions you have</h2>
-
-{{new-question saveQuestion2="saveQuestion3"}}
+<h2>We hope you find answers to all the qustions you have</h2> {{new-question saveQuestion2="saveQuestion3"}}
 <hr>
 
 <ul>
   {{#each model.questions as |question|}}
-     {{question-tile question=question}}
+    {{question-tile question=question}}
 
   {{/each}}
-{{#link-to 'question' question.id}}
-{{/link-to}}
+  {{#link-to 'question-detail' question.id}}click here ufike huko
+  {{/link-to}}
 </ul>

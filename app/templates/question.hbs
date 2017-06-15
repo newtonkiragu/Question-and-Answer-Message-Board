@@ -2,4 +2,13 @@
 Hi. I am {{model.author}} This was my Question {{model.querry}}
 Here is the screenshot:
 <p><img src={{model.image}} alt="No image" class="image"></p>
-{{new-answer saveAnswer='saveAnswer' question=model}}
+<!-- {{new-answer saveAnswer='saveAnswer' question=model}} -->
+jhgbk
+
+{{new-answer saveAnswer="saveAnswer"}}
+<h2>Answers</h2>
+<ul class="list">
+  {{#each model.answers as |answer|}}
+    <li>{{answer.author}} - {{answer.answer}} {{answer.image}}</li>
+  {{/each}}
+</ul>

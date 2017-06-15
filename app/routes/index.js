@@ -11,6 +11,11 @@ export default Ember.Route.extend({
     saveQuestion3(params) {
       var newQuestion = this.store.createRecord('question', params);
       newQuestion.save();
+    },
+    saveAnswer(params) {
+      var newAnswer = this.store.createRecord('answer', params);
+      newAnswer.save();
+      this.transitionTo('index');
     }
   }
 });
