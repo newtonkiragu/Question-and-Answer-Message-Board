@@ -4,9 +4,13 @@
 <h2>We hope you find answers to all the qustions you have</h2> {{new-question saveQuestion2="saveQuestion3"}}
 <hr>
 
-<ul>
+<div class="row">
   {{#each model.questions as |question|}}
-    {{question-popularity question}}{{question-tile question=question}}
+  <div>
+  {{question-tile question=question}}
+</div>
+<div>
+  <p class="fire">{{question-popularity question}}</p>
+</div>
   {{/each}}
-
-</ul>
+</div>
