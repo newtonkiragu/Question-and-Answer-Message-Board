@@ -9,6 +9,12 @@ Here is the screenshot:
 {{model.answer}}
 <ul class="list">
   {{#each model.answers as |answer|}}
-    <li>{{answer.author}} - {{answer.answer}} {{answer.image}}</li>
+    <li><em>{{answer.author}}</em> - {{answer.answer}} <img src={{answer.image}} alt="NO-IMAGE" class="image"></li>
   {{/each}}
 </ul>
+{{#each view.stars}}
+   <span {{bind-attr data-rating=rating}}
+     {{bind-attr class=":star-rating :glyphicon full:glyphicon-star:glyphicon-star-empty"}}
+     {{action "setRating" target=view}}>
+   </span>
+ {{/each}}
