@@ -5,11 +5,12 @@ export default Ember.Component.extend({
     answerFormShow() {
       this.set('answerForm', true);
     },
-    saveAnswer() {
+    saveAnswer1() {
       var params = {
         author: this.get('author'),
         answer: this.get('answer'),
-        image: this.get('image')
+        image: this.get('image'),
+        question: this.get('question')
       };
       this.set('answerForm', false);
       this.sendAction('saveAnswer', params);
